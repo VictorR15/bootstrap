@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Udemy</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="build/css/app.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header class="header container-fluid d-none d-lg-block">
+      <div
+        class="d-flex justify-content-between align-items-center p-3 shadow-sm"
+      >
+        <p class="fs-3 fw-bold m-0">
+          <span class="text-success">u</span>niversidad
+        </p>
+      </div>
+    </header>
+    <section class="descuentos container-xl">
+      <div class="row justify-content-around align-items-lg-end bg-light">
+        <div class="col-lg-4 shadow bg-white texto-descuentos p-3">
+          <h2>Ultimo dia para disfrutar descuetnos</h2>
+          <p class="descripcion">
+            Cursos desde 10 usd$. Utiliza el cupon 10usd para pagar unicamente
+            10 usd en cualquier curso.
+          </p>
+          <input
+            type="search"
+            placeholder="¿Que quieres aprender?"
+            class="form-control buscar bg-light"
+          />
+        </div>
+        <div class="col-lg-5">
+          <img
+            src="build/img/persona1.png"
+            alt="imagen persona"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
