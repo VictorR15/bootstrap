@@ -1,16 +1,14 @@
-
 //COLORES
 $negro: #000;
-$blanco: #FFF;
-$morado: #A435F0;
-$gris: #F8F9FB;
-$grisOscuro: #6A6F73;
-$naranja: #B4690E;
-
+$blanco: #fff;
+$morado: #a435f0;
+$gris: #f8f9fb;
+$grisOscuro: #6a6f73;
+$naranja: #b4690e;
 
 //FUENTES
 
-$fuente-headings: 'Kaisei HarunoUmi';
+$fuente-headings: "Kaisei HarunoUmi";
 $fuente-textos: Arial, Helvetica, sans-serif;
 $headings-font-family: $fuente-headings;
 $headings-font-weight: 700;
@@ -24,8 +22,26 @@ $light: $gris;
 $dark: $negro;
 
 //FORMULARIOS
-$input-border-color:  $dark;
+$input-border-color: $dark;
+$input-border-radius: 1rem;
+
+//ENLACES
+$nav-link-color: $grisOscuro;
+$nav-link-hover-color: $dark;
+$nav-link-font-weight: 700;
+$nav-link-font-size: 0.9rem;
+
+//BOTONES
+$btn-border-radius: 0;
+$btn-font-weight: 700;
+
+//CARDS
+$card-spacer-x: 0;
+$card-inner-border-radius: 0;
+$card-border-width: 0;
+
+//HABILITAR CSS GRID
+$enable-cssgrid: true;
 
 // Importar Bootstrap
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
-
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
